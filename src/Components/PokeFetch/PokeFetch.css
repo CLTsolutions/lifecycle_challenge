@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.start{
+.start {
   margin-top: 50px;
   align-self: center;
   width: 300px;
@@ -17,12 +17,12 @@
   border-radius: 10px;
 }
 
-.timer{ 
+.timer {
   font-family: 'Press Start 2P', cursive;
   font-size: 3em;
 }
 
-.pokeWrap{
+.pokeWrap {
   align-self: flex-start;
   margin-top: -100px;
   margin-left: 18vw;
@@ -32,9 +32,13 @@
   width: 500px;
 }
 
+.pokeImgDark {
+  width: 500px;
+  filter: brightness(0%);
+}
+
 .pokeName {
   font-family: 'Press Start 2P', cursive;
   text-transform: uppercase;
   margin-top: -50px;
 }
-
